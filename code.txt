@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checker.css">
+    <title>Checkerboard</title>
+</head>
+<body>
+    <div class="checkerboard">
+        <!-- Create the checkerboard pattern using div elements -->
+        <!-- You can add checkers (e.g., red and black pieces) using additional elements or CSS classes -->
+        <div class="row">
+            <div class="square black"></div>
+            <div class="square white"></div>
+            <div class="square black"></div>
+            <div class="square white"></div>
+            <div class="square black"></div>
+            <div class="square white"></div>
+            <div class="square black"></div>
+            <div class="square white"></div>
+        </div>
+        <!-- Repeat the row pattern to create the checkerboard -->
+        <div class="row">
+            <!-- Repeat the squares as needed -->
+        </div>
+        <!-- Repeat for more rows -->
+    </div>
+</body>
+</html>
